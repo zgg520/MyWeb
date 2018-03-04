@@ -1,1 +1,11 @@
-﻿@ViewData["msg"]
+﻿<html>
+<body>
+    <form method="post">
+        <label>网址</label><input name="url" type="text" /><br />
+        <label>REF</label><input name="ref" type="text" /><br />
+        <label>Cookie</label><input name="cookie" type="text" /><br />
+        <input type="submit" />
+    </form>
+    <div>@ViewData["msg"]</div>
+</body>
+</html>
